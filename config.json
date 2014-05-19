@@ -1,12 +1,14 @@
 {
   "locals": {
-    "url": "http://localhost:8080",
-    "name": "The Wintersmith's blog",
-    "owner": "Someone",
-    "description": "Ramblings of an immor(t)al demigod"
+    "url": "http://miyahira.me",
+    "name": "Miyahira.me",
+    "owner": "@miyahira_go",
+    "description": "Just another iPhone Game Developer"
   },
   "plugins": [
-    "./plugins/paginator.coffee"
+    "./plugins/paginator.coffee",
+    "./node_modules/wintersmith-coffee/",
+    "./node_modules/wintersmith-sass/"
   ],
   "require": {
     "moment": "moment",

@@ -21,6 +21,8 @@ html(lang='en')
             h1
               a(href=locals.url)= locals.name
             p.description= locals.description
+        div
+        //- iframe(src="https://banners.itunes.apple.com/banner.html?partnerId=&aId=10la3H&id=834375653&c=jp&l=ja-JP&bt=catalog&t=catalog_black&w=728&h=90" frameborder="0" style="overflow-x:hidden;overflow-y:hidden;width:728px;height:90px;border:0px")
     div#content
       div.content-wrap
         block content
@@ -28,8 +30,8 @@ html(lang='en')
     footer
       div.content-wrap
         block footer
-          section.about
-            !=contents['about.md'].html
+        section.profile
+            !=contents['profile.md'].html
           section.copy
             p &copy; #{ new Date().getFullYear() } #{ locals.owner } &mdash; powered by&nbsp;
               a(href='https://github.com/jnordberg/wintersmith') Wintersmith
