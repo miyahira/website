@@ -8,5 +8,5 @@ appstore: https://itunes.apple.com/jp/app/spectra-shifta/id834375653?mt=8&ign-mp
 icon: /articles/spectra-shifta/icon.png
 ---
 
-SHIFT-ing SPECTRAs since 1988
+SHIFT and AVOID
 
