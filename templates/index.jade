@@ -8,13 +8,21 @@ block content
         p.date
           span= moment.utc(article.date).format('DD. MMMM YYYY')
         p
-          img.icon(src=article.metadata.icon)
+          if(article.metadata.icon)
+            img.icon(src=article.metadata.icon)
+          else
+            img.icon
         h2
           a(href=article.url)= article.title
-        a(href=article.metadata.appstore)
-          img.badge(src='/images/appstore.png')
-        a(href=article.metadata.googleplay)
-          img.badge(src='/images/googleplay.png')
+        if article.metadata.appstore
+          a(href=article.metadata.appstore)
+            img.badge(src='/images/appstore.png')
+        if article.metadata.googleplay
+          a(href=article.metadata.googleplay)
+            img.badge(src='/images/googleplay.png')
+        if article.metadata.url
+          a(href=article.metadata.url)
+            = article.metadata.url
       section.content
         | !{ typogr(article.intro).typogrify() }
         if article.hasMore
