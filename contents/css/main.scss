@@ -177,16 +177,15 @@ footer {
 
   header {
     border-top: 1px dashed #d2d2d2;
-  }
+    img.icon{
+      width: 100px;
+      height: 100px;
+      float: left;
 
-  header img.icon{
-    width: 100px;
-    height: 100px;
-    float: left;
-
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+    }
   }
 
   header img.badge{
@@ -199,10 +198,9 @@ footer {
     font-weight: 400;
     margin: 0.8em 0 0 0;
     font-size: 2.8em;
-  }
-
-  header h2 a {
-    text-decoration: none;
+    a{
+      text-decoration: none;
+    }
   }
 
   header .date {
@@ -225,6 +223,10 @@ footer {
     width: 100%;
   }
 
+  img.icon{
+    width: 512px;
+    height: 512px;
+  }
 }
 
 .article.intro .content p {
