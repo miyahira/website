@@ -23,7 +23,7 @@ block header
     mixin author(page.metadata.author)
 
 block content
-  article.article
+  article.article.main
     if page.metadata.appstore
       a(href=page.metadata.appstore)
         img.badge(src='/images/appstore.png')

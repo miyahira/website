@@ -172,6 +172,10 @@ footer {
 }
 /* article */
 
+.article.main img.badge{
+  padding-right: 1em;
+}
+
 .article {
   margin: 3em 0 4em;
 
@@ -189,7 +193,10 @@ footer {
   }
 
   header img.badge{
+    width: 100px;
     float: right;
+
+    padding-left: 0.3em;
   }
 
   header h2 {
