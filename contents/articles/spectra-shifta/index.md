@@ -1,5 +1,6 @@
 ---
 title: SPECTRA SHIFTA
+description: ギリギリで避ける快感…ッ！簡単操作の激ムズ避けゲー！！
 author: miyahira_go
 date: 2014-04-29 18:00
 template: article.jade
@@ -8,5 +9,5 @@ appstore: https://itunes.apple.com/jp/app/spectra-shifta/id834375653?mt=8&ign-mp
 icon: /articles/spectra-shifta/icon.png
 ---
 
-SHIFT and AVOID
+ギリギリで避ける快感…ッ！簡単操作の激ムズ避けゲー！！
 

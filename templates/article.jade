@@ -1,11 +1,19 @@
 
 extends layout
 
+
 block append vars
   - bodyclass = 'article-detail'
 
 block prepend title
   | #{ page.title + " - "}
+
+block append ogp
+  meta(property='og:title', content=page.title)
+  meta(property='og:type', content='article')
+  meta(property='og:description', content=page.metadata.description)
+  meta(property='og:image', content=locals.url + page.metadata.icon)
+  meta(property='og:url', content=locals.url + page.url)
 
 block header
   include author
