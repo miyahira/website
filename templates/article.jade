@@ -24,14 +24,17 @@ block header
 
 block content
   article.article.main
-    if page.metadata.appstore
-      a(href=page.metadata.appstore)
-        img.badge(src='/images/appstore.png')
-    if page.metadata.googleplay
-      a(href=page.metadata.googleplay)
-        img.badge(src='/images/googleplay.png')
-    img.icon(src=page.metadata.icon)
-    section.content!= typogr(page.html).typogrify()
+    .images
+      if page.metadata.appstore
+        a(href=page.metadata.appstore)
+          img.badge(src='/images/appstore.png')
+      if page.metadata.googleplay
+        a(href=page.metadata.googleplay)
+          img.badge(src='/images/googleplay.png')
+      div
+        img.icon(src=page.metadata.icon)
+    .text
+      section.content!= typogr(page.html).typogrify()
 
 block prepend footer
   div.nav

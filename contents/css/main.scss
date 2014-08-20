@@ -172,8 +172,24 @@ footer {
 }
 /* article */
 
-.article.main img.badge{
-  padding-right: 1em;
+.article.main {
+
+  .images{
+    text-align: center;
+
+    img.badge{
+      padding: 0em 0.5em;
+    }
+    img.icon{
+      width: 300px;
+      height: auto;
+
+      -webkit-border-radius: 60px;
+      -moz-border-radius: 60px;
+      border-radius: 60px;
+    }
+  }
+
 }
 
 .article {
