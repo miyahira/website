@@ -14,11 +14,11 @@ block content
             img.icon(style='display:invisible')
         h2
           a(href=article.url)= article.title
-        if article.metadata.googleplay
-          a(href=article.metadata.googleplay)
+        if article.metadata.googleplayUrl
+          a(href=article.metadata.googleplayUrl)
             img.badge(src='/images/googleplay.png')
-        if article.metadata.appstore
-          a(href=article.metadata.appstore)
+        if article.metadata.appstoreUrl
+          a(href=article.metadata.appstoreUrl)
             img.badge(src='/images/appstore.png')
         if article.metadata.url
           a(href=article.metadata.url)
