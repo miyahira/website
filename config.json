@@ -1,4 +1,5 @@
 {
+  "output": "public",
   "locals": {
     "url": "http://miyahira.me",
     "name": "Miyahira.me",
