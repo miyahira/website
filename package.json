@@ -3,8 +3,10 @@
     "moment": "2.3.x",
     "underscore": "1.4.x",
     "typogr": "0.5.x",
+    "wintersmith": "2.0.x",
     "wintersmith-coffee": "latest",
-    "wintersmith-sass": "latest"
+    "wintersmith-sass": "latest",
+    "connect": "2.3.x"
   },
   "repository": "none"
 }
