@@ -10,7 +10,7 @@ block prepend title
 
 block append ogp
   meta(name='og:title', content=page.title)
-  meta(name='og:type', content='article')
+  meta(name='og:type', content=page.metadata.type ?: "article")
   meta(name='og:description', content=page.metadata.description)
   meta(name='og:image', content=locals.url + page.metadata.icon)
   meta(name='og:url', content=locals.url + page.url)
