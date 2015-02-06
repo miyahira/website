@@ -1,6 +1,5 @@
 ---
 title: SPECTRA SHIFTA
-type: game
 description: ギリギリで避ける快感…ッ！簡単操作の激ムズ避けゲー！！
 author: miyahira_go
 date: 2014-04-29 18:00

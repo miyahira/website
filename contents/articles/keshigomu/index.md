@@ -1,6 +1,5 @@
 ---
 title: お前に俺が消せるのか！
-type: game
 description: ルールはひとつ。「消しカスを死ぬほど集めろ」！ 落書きが次々と現れるので、指でこすって、消していけ！
 author: miyahira_go
 date: 2015-01-26 18:00

@@ -10,9 +10,11 @@ block prepend title
 
 block append ogp
   meta(property='og:title', content=page.title)
-  meta(property='og:type', content=page.metadata.type ? page.metadata.type : "article")
   meta(property='og:description', content=page.metadata.description)
   meta(property='og:image', content=locals.url + page.metadata.icon)
+  meta(property='og:image:width', 320)
+  meta(property='og:image:height', 320)
+  meta(property='og:image:type', png)
   meta(property='og:url', content=locals.url + page.url)
 
 if page.metadata.type == "app"
