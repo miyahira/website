@@ -9,27 +9,27 @@ block prepend title
   | #{ page.title + " - "}
 
 block append ogp
-  meta(name='og:title', content=page.title)
-  meta(name='og:type', content=page.metadata.type ?: "article")
-  meta(name='og:description', content=page.metadata.description)
-  meta(name='og:image', content=locals.url + page.metadata.icon)
-  meta(name='og:url', content=locals.url + page.url)
+  meta(property='og:title', content=page.title)
+  meta(property='og:type', content=page.metadata.type ? page.metadata.type : "article")
+  meta(property='og:description', content=page.metadata.description)
+  meta(property='og:image', content=locals.url + page.metadata.icon)
+  meta(property='og:url', content=locals.url + page.url)
 
 if page.metadata.type == "app"
   block append twitterCard
-    meta(name='twitter:card', content="app")
-    meta(name='twitter:creator', content="@miyahira_go")
+    meta(property='twitter:card', content="app")
+    meta(property='twitter:creator', content="@miyahira_go")
     if page.metadata.appstoreId
-      meta(name='twitter:app:name:iphone', content=page.title)
-      meta(name='twitter:app:id:iphone', content=page.metadata.appstoreId)
-      meta(name='twitter:app:url:iphone', content=page.metadata.appstoreUrl)
-      meta(name='twitter:app:name:ipad', content=page.title)
-      meta(name='twitter:app:id:ipad', content=page.metadata.appstoreId)
-      meta(name='twitter:app:url:ipad', content=page.metadata.appstoreUrl)
+      meta(property='twitter:app:name:iphone', content=page.title)
+      meta(property='twitter:app:id:iphone', content=page.metadata.appstoreId)
+      meta(property='twitter:app:url:iphone', content=page.metadata.appstoreUrl)
+      meta(property='twitter:app:name:ipad', content=page.title)
+      meta(property='twitter:app:id:ipad', content=page.metadata.appstoreId)
+      meta(property='twitter:app:url:ipad', content=page.metadata.appstoreUrl)
     if page.metadata.googleplayId
-      meta(name='twitter:app:name:googleplay', content=page.title)
-      meta(name='twitter:app:id:googleplay', content=page.metadata.googleplayId)
-      meta(name='twitter:app:url:googleplay', content=page.metadata.googleplayUrl)
+      meta(property='twitter:app:name:googleplay', content=page.title)
+      meta(property='twitter:app:id:googleplay', content=page.metadata.googleplayId)
+      meta(property='twitter:app:url:googleplay', content=page.metadata.googleplayUrl)
 
 block header
   include author

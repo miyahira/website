@@ -1,6 +1,6 @@
 ---
 title: あいすたわ〜ん
-type: app
+type: game
 description: 君は何段積められる？アイスとコーンと可愛い犬のカジュアルゲーム！
 author: miyahira_go
 date: 2014-08-08 18:00
