@@ -1,13 +1,15 @@
 ---
 title: お前に俺が消せるのか！
+type: app
+description: ルールはひとつ。「消しカスを死ぬほど集めろ」！ 落書きが次々と現れるので、指でこすって、消していけ！
 author: miyahira_go
 date: 2015-01-26 18:00
 template: article.jade
+icon: /articles/keshigomu/icon.png
 googleplayId: me.miyahira.Keshigomu
 googleplayUrl: https://play.google.com/store/apps/details?id=me.miyahira.Keshigomu
 appstoreId: id961536326
 appstoreUrl: https://itunes.apple.com/jp/app/o-qianni-anga-xiaoserunoka!/id961536326?mt=8&ign-mpt=uo%3D4
-icon: /articles/keshigomu/icon.png
 ---
 まさかの小学校のあの遊びゲーム化！
 
