@@ -14,12 +14,25 @@ appstoreUrl: https://itunes.apple.com/us/app/hues-connect-simple-deep-unique/id9
 
 <span class="more"></span>
 
-# 「つなげて、はさんで、消す系」パズル
+# つなげて、はさんで、消すパズル
 3マッチパズルに飽きたあなたに！
 
-今までにない、新しくてカッコイイ系のパズル、ヒューズコネクト（ヒューコネ）。休み時間、仕事の合間の頭の体操にいかがでしょう！？
+今までにない、新しくてカッコイイ系のパズル、ヒューズコネクト（ヒューコネ）。休み時間、仕事の合間の頭の体操にいかが？
 
-結構考えられたステージを50個用意。随時追加中！！
+けっこう考えられたステージを50個用意。随時追加中！
+
+
+# 【スクリーンショット】
+<div class="carousel">
+<div class="carousel-body">
+<img src="/articles/huesconnect/3.png" style="width: 400px;">
+<img src="/articles/huesconnect/2.png" style="width: 400px;">
+<img src="/articles/huesconnect/1.png" style="width: 400px;">
+<img src="/articles/huesconnect/4.png" style="width: 400px;">
+<img src="/articles/huesconnect/5.png" style="width: 400px;">
+</div>
+</div>
+
 
 # 【操作方法】
 * 同じ色を繋げると消える
