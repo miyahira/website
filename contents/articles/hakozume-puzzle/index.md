@@ -28,11 +28,11 @@ appstoreUrl: https://itunes.apple.com/us/app/hakozume-puzzle/id993019839?l=ja&ls
 # 【スクリーンショット】
 <div class="carousel">
 <div class="carousel-body">
-<img src="/articles/huesconnect/3.png" style="width: 400px;">
-<img src="/articles/huesconnect/2.png" style="width: 400px;">
-<img src="/articles/huesconnect/1.png" style="width: 400px;">
-<img src="/articles/huesconnect/4.png" style="width: 400px;">
-<img src="/articles/huesconnect/5.png" style="width: 400px;">
+<img src="/articles/hakozume-puzzle/1.png" style="width: 400px;">
+<img src="/articles/hakozume-puzzle/2.png" style="width: 400px;">
+<img src="/articles/hakozume-puzzle/3.png" style="width: 400px;">
+<img src="/articles/hakozume-puzzle/4.png" style="width: 400px;">
+<img src="/articles/hakozume-puzzle/5.png" style="width: 400px;">
 </div>
 </div>
 
