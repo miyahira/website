@@ -34,6 +34,8 @@ if page.metadata.type == "app"
       meta(property='twitter:app:url:googleplay', content=page.metadata.googleplayUrl)
 
 block header
+  p.description 
+    a(href=locals.url)= locals.name
   include author
   h1= page.title
   p.author

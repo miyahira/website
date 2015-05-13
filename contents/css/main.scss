@@ -127,6 +127,15 @@ body.article-detail > header {
   margin-bottom: 3em;
 }
 
+body.article-detail > header .description{
+  font-family: 'Lora', serif;
+  font-style: normal;
+
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
+}
+
 /* page footer */
 
 footer {
