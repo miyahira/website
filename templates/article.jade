@@ -28,6 +28,7 @@ if page.metadata.type == "app"
       meta(property='twitter:app:name:ipad', content=page.title)
       meta(property='twitter:app:id:ipad', content=page.metadata.appstoreId)
       meta(property='twitter:app:url:ipad', content=page.metadata.appstoreUrl)
+      meta(name='apple-itunes-app', content='app-id=' + page.metadata.appstoreId + ", affiliate-data=10la3H")
     if page.metadata.googleplayId
       meta(property='twitter:app:name:googleplay', content=page.title)
       meta(property='twitter:app:id:googleplay', content=page.metadata.googleplayId)

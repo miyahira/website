@@ -7,7 +7,7 @@ template: article.jade
 icon: /articles/keshigomu/icon.png
 googleplayId: me.miyahira.Keshigomu
 googleplayUrl: https://play.google.com/store/apps/details?id=me.miyahira.Keshigomu
-appstoreId: id961536326
+appstoreId: 961536326
 appstoreUrl: https://itunes.apple.com/jp/app/o-qianni-anga-xiaoserunoka!/id961536326?mt=8&ign-mpt=uo%3D4
 ---
 まさかの小学校のあの遊びゲーム化！

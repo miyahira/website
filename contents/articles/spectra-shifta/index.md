@@ -7,7 +7,7 @@ template: article.jade
 icon: /articles/spectra-shifta/icon.png
 googleplayId: me.miyahira.SpectraShifta
 googleplayUrl: https://play.google.com/store/apps/details?id=me.miyahira.SpectraShifta
-appstoreId: id834375653
+appstoreId: 834375653
 appstoreUrl: https://itunes.apple.com/jp/app/spectra-shifta/id834375653?mt=8&ign-mpt=uo%3D4
 ---
 

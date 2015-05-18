@@ -7,7 +7,7 @@ template: article.jade
 icon: /articles/huesconnect/icon.png
 # googleplayId: me.miyahira.HuesConnect
 # googleplayUrl: https://play.google.com/store/apps/details?id=me.miyahira.Keshigomu
-appstoreId: id968141541
+appstoreId: 968141541
 appstoreUrl: https://itunes.apple.com/us/app/hues-connect-simple-deep-unique/id968141541?l=ja&ls=1&mt=8
 ---
 簡単で、むずかしくて、シンプルで、スゴイパズルゲーム！ヒューズコネクト！！
