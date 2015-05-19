@@ -19,11 +19,15 @@ appstoreUrl: https://itunes.apple.com/us/app/hakozume-puzzle/id993019839?l=ja&ls
 
 # 【主な機能】
 * ブロックを動かして、箱をつめろ！
-* 簡単なルールで奥が深い！
+* 簡単なルールで、すぐに遊べる！
 * 大人にも子供にもオススメな脳トレ！
 * 3つの難易度の中から、自分に会う難易度を選べ！
 * 無料で300ステージを用意。無料でもたっぷり遊べる！
 
+# 【動画】
+<div style="text-align: center">
+<iframe width="420" height="315" src="https://www.youtube.com/embed/qJ14qPU1fW4" frameborder="0" allowfullscreen></iframe>
+</div>
 
 # 【スクリーンショット】
 <div class="carousel">
