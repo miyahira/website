@@ -2,7 +2,7 @@
 title: Hakozume Puzzle
 # description: 
 author: miyahira_go
-date: 2015-05-31 18:00
+date: 2015-06-14 10:00
 template: article.jade
 icon: /articles/hakozume-puzzle/icon.png
 # googleplayId: me.miyahira.HuesConnect
