@@ -42,5 +42,12 @@ appstoreUrl: https://itunes.apple.com/us/app/hakozume-puzzle/id993019839?l=ja&ls
 
 
 # 【プレスキット】
+Hakozume Puzzleの各種情報をまとめたプレスキットを用意しました。
+zipには以下のものが含まれてます。
+- スクリーンショット
+- 概要, App Storeの文章
+- 各種関連URL
+- 作者情報
 
-<a href="https://www.dropbox.com/s/br3b7dyqh4rxn1f/HakozumePuzzle_Presskit_1.0.0.zip?dl=0">HakozumePuzzle_Presskit_1.0.0.zip</a>
+ダウンロードはこちら： <a href="https://www.dropbox.com/s/br3b7dyqh4rxn1f/HakozumePuzzle_Presskit_1.0.0.zip?dl=0">HakozumePuzzle_Presskit_1.0.0.zip</a>
+
