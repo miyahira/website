@@ -8,7 +8,7 @@ icon: /articles/hakozume-puzzle/icon.png
 # googleplayId: me.miyahira.HuesConnect
 # googleplayUrl: https://play.google.com/store/apps/details?id=me.miyahira.Keshigomu
 appstoreId: 993019839
-appstoreUrl: https://itunes.apple.com/us/app/hakozume-puzzle/id993019839?l=ja&ls=1&mt=8&at=10la3H
+appstoreUrl: https://geo.itunes.apple.com/jp/app/id993019839?mt=8&uo=6&at=10la3H
 ---
 箱づめパズルは、文字通り箱をつめる、簡単なパズル。
 様々な形のブロックを、箱にピッタリキレイにつめろ！
