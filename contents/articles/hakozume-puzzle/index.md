@@ -1,5 +1,5 @@
 ---
-title: Hakozume Puzzle
+title: 箱詰めパズル
 # description: 
 author: miyahira_go
 date: 2015-06-14 10:00
