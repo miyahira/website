@@ -8,5 +8,8 @@
     "wintersmith-sass": "latest",
     "connect": "2.3.x"
   },
-  "repository": "none"
+  "repository": "none",
+  "devDependencies": {
+    "grunt-wintersmith": "0.0.2"
+  }
 }

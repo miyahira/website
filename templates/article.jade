@@ -55,6 +55,18 @@ block content
       if page.metadata.googleplayUrl
         a(href=page.metadata.googleplayUrl)
           img.badge(src='/images/googleplay.png')
+
+    .social-buttons
+      link(rel="stylesheet" href="/social-likes/social-likes_classic.css")
+      script(src="/jquery/dist/jquery.min.js")
+      script(src="/social-likes/social-likes.min.js")
+      .social-likes
+        .facebook(title="Share link on Facebook")
+          - Facebook
+        .twitter(data-via="miyahira_go" title="Share link on Twitter")
+          - Twitter
+        .plusone(title="Share link on Google+")
+          - Google+
     .text
       section.content!= typogr(page.html).typogrify()
     .zenback
