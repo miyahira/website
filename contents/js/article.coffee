@@ -3,7 +3,7 @@ $ ->
   appName = $("meta[property='og:title']").attr("content")
 
   $("#download-ios a").click ->
-    ga("send", "appstore", "badge", "click", appName)
+    ga("send", "event", "appstore", "click", appName)
 
   $("#download-android a").click ->
-    ga("send", "googleplay", "badge", "click", appName)
+    ga("send", "event", "googleplay", "click", appName)
