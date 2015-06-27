@@ -1,6 +1,8 @@
 
 extends layout
 
+block append head
+  script(type="text/javascript" src="/js/article.js")
 
 block append vars
   - bodyclass = 'article-detail'
@@ -51,11 +53,13 @@ block content
         img.icon(src=page.metadata.icon)
 
       if page.metadata.appstoreUrl
-        a(href=page.metadata.appstoreUrl)
-          img.badge(src='/images/appstore.png')
+        #download-ios
+          a(href=page.metadata.appstoreUrl)
+            img.badge(src='/images/appstore.png')
       if page.metadata.googleplayUrl
-        a(href=page.metadata.googleplayUrl)
-          img.badge(src='/images/googleplay.png')
+        #download-android
+          a(href=page.metadata.googleplayUrl)
+            img.badge(src='/images/googleplay.png')
 
     .social-buttons
       link(rel="stylesheet" href="/social-likes/social-likes_classic.css")
@@ -70,12 +74,7 @@ block content
           - Google+
     .text
       section.content!= typogr(page.html).typogrify()
-    .zenback
-      //  X:S ZenBackWidget
-      div#zenback-widget-loader
-        script(type="text/javascript")
-          !function(d,i){if(!d.getElementById(i)){var r=Math.ceil((new Date()*1)*Math.random());var j=d.createElement("script");j.id=i;j.async=true;j.src="//w.zenback.jp/v1/?base_uri=http%3A//miyahira.me&nsid=102788173087678535%3A%3A130996046993033797&rand="+r;d.body.appendChild(j);}}(document,"zenback-widget-js");
-      // X:E ZenBackWidget
+
 
 block prepend footer
   div.nav
