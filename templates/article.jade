@@ -8,7 +8,14 @@ block append vars
   - bodyclass = 'article-detail'
 
 block prepend title
-  | #{ page.title + " - "}
+  = page.title
+  - platforms = []
+  if page.metadata.appstoreId
+    - platforms.push("iOS")
+  if page.metadata.googleplayId
+    - platforms.push("Android")
+  = " [" + platforms + "]"
+  = " - "
 
 block append ogp
   meta(property='og:title', content=page.title)
