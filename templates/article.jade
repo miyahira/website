@@ -61,17 +61,40 @@ block content
           a(href=page.metadata.googleplayUrl)
             img.badge(src='/images/googleplay.png')
 
-    .social-buttons
-      link(rel="stylesheet" href="/social-likes/social-likes_classic.css")
-      script(src="/jquery/dist/jquery.min.js")
-      script(src="/social-likes/social-likes.min.js")
-      .social-likes
-        .facebook(title="Share link on Facebook")
-          - Facebook
-        .twitter(data-via="miyahira_go" title="Share link on Twitter")
-          - Twitter
-        .plusone(title="Share link on Google+")
-          - Google+
+    #social-buttons
+      #shareme(data-url=locals.url + page.url)
+    script
+      :coffee-script
+        $('#shareme').sharrre({
+          share: {
+            googlePlus: true,
+            facebook: true,
+            twitter: true,
+          },
+          buttons: {
+            googlePlus: {size: 'tall', annotation:'bubble'},
+            facebook: {layout: 'box_count'},
+            twitter: {count: 'vertical'},
+          },
+          enableHover: false,
+          enableCounter: false,
+          enableTracking: true,
+          url: ""
+        })
+    style.
+      #social-buttons{
+      }
+      #social-buttons .buttons{
+        margin-top: 30px;
+        height: 100px;
+        text-align: center;
+      }
+      .sharrre .button{
+        display: inline-block;
+        vertical-align: middle;
+        width:60px;
+        height: 100px;
+      }
     .text
       section.content!= typogr(page.html).typogrify()
     .zenback
