@@ -4,7 +4,7 @@
     "url": "http://miyahira.me",
     "name": "Miyahira.me",
     "owner": "@miyahira_go",
-    "description": "ゲーム作りたい系外人 in cocos2d-swift"
+    "description": "iOSゲーム開発 in 沖縄"
   },
   "plugins": [
     "./plugins/paginator.coffee",
